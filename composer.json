@@ -1,0 +1,24 @@
+{
+    "name": "devbr/pack-user",
+    "description": "Package para gerenciamento de usuários",
+    "keywords": ["user", "pack", "wscore", "manager"],
+    "license": "MIT",
+    "type": "devbr-pack",
+    "homepage": "http://dbrasil.tk/devbr/",
+    "authors": [{
+        "name": "Bill Rocha",
+        "email": "prbr@ymail.com"
+    }],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": ">=5.6",
+        "devbr/install-plugin":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\": ""
+        }
+    }
+}
